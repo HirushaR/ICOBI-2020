@@ -237,7 +237,7 @@ p {
   animation-delay: 2s; }
 
 #hero h1:nth-child(3) {
-  font-size: 3rem;
+  font-size: 2rem;
   animation: text_reveal_name .5s ease forwards;
   animation-delay: 3s; }
 
