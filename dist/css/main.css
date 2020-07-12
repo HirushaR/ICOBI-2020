@@ -261,7 +261,7 @@ p {
   animation-delay: 2.5s; }
 
 /* End Hero Section */
-/* About Section */
+/* Main Section*/
 #about .about {
   flex-direction: column-reverse;
   text-align: center;
@@ -275,42 +275,78 @@ p {
 
 #about .col-right {
   width: 100%; }
-
-#about .col-right h2 {
-  font-size: 1.8rem;
-  font-weight: 500;
-  letter-spacing: .2rem;
-  margin-bottom: 10px; }
-
-#about .col-right p {
-  margin-bottom: 20px; }
-
-#about .col-right .cta {
-  color: black;
-  margin-bottom: 50px;
-  padding: 10px 20px;
-  font-size: 2rem; }
+  #about .col-right h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 10px; }
+  #about .col-right p {
+    margin-bottom: 20px; }
+  #about .col-right .cta {
+    color: black;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 2rem; }
 
 #about .col-left .about-img {
   height: 100%;
   width: 100%;
   position: relative;
   border: 10px solid white; }
+  #about .col-left .about-img:after {
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid #add8e6;
+    z-index: -1; }
 
-#about .col-left .about-img::after {
-  content: '';
-  position: absolute;
-  left: -33px;
-  top: 19px;
-  height: 98%;
-  width: 98%;
-  border: 7px solid #add8e6;
-  z-index: -1; }
+/* End Main Section */
+/* Main Section*/
+#main .main {
+  flex-direction: column-reverse;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px; }
 
+#main .col-left {
+  width: 500px;
+  height: 360px; }
+
+#main .col-right {
+  width: 100%; }
+  #main .col-right h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 10px; }
+  #main .col-right p {
+    margin-bottom: 20px; }
+  #main .col-right .cta {
+    color: black;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 2rem; }
+
+#main .col-left .main-img {
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+/* End Main Section */
+/* About Section */
 .secondary-color {
   color: #fff; }
 
 /* End About Section */
+.firstLetter {
+  font-size: 30px;
+  color: #add8e6;
+  text-transform: uppercase; }
+
 /*End contact Section */
 /* Footer */
 #footer {
@@ -407,6 +443,25 @@ p {
     text-align: left;
     padding: 30px; }
   #about .col-right h1 {
+    text-align: left; }
+  /* End About */
+  /* About */
+  #main .main {
+    flex-direction: row; }
+  #main .col-left {
+    width: 600px;
+    height: 400px;
+    padding-left: 60px; }
+  #main .about .col-left .main-img::after {
+    left: -45px;
+    top: 34px;
+    height: 98%;
+    width: 98%;
+    border: 10px solid #add8e6; }
+  #main .col-right {
+    text-align: left;
+    padding: 30px; }
+  #main .col-right h1 {
     text-align: left; }
   /* End About */ }
 

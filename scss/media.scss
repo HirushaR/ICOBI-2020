@@ -41,6 +41,31 @@
     text-align: left;
   }
   /* End About */
+  /* About */
+  #main .main {
+    flex-direction: row;
+  }
+  #main .col-left {
+    width: 600px;
+    height: 400px;
+    padding-left: 60px;
+  }
+  #main .about .col-left .main-img::after {
+    left: -45px;
+    top: 34px;
+    height: 98%;
+    width: 98%;
+    border: 10px solid $primary-color;
+  }
+  #main .col-right {
+    text-align: left;
+    padding: 30px;
+  }
+  #main .col-right h1 {
+    text-align: left;
+  }
+  /* End About */
+
 
 
 }
