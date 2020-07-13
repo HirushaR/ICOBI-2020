@@ -1,7 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
 $primary-color: #add8e6;
 $secondary-color: linear-gradient(60deg, #29323c 0%, #485563 100%);;
-
+@import "slider";
 * {
   padding: 0;
   margin: 0;
