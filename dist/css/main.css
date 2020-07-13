@@ -367,6 +367,46 @@ p {
   position: relative; }
 
 /* End Main Section */
+#register {
+  background: url(../image/03.jpg);
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  z-index: 1; }
+  #register .register {
+    flex-direction: column;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px; }
+  #register:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(145deg, rgba(152, 119, 234, 0.7) -25%, #13b1cd 100%);
+    background-repeat: repeat-x;
+    content: " "; }
+  #register .col-right {
+    position: relative;
+    background-color: #242526;
+    border-radius: 10px; }
+    #register .col-right h1, #register .col-right h2 {
+      color: white;
+      padding: 2px 17px; }
+  #register .col-left {
+    position: center;
+    padding: 0 100px; }
+    #register .col-left h2 {
+      color: white;
+      font-size: 20px; }
+    #register .col-left p {
+      font-weight: 100; }
+
 /* About Section*/
 #about .about {
   flex-direction: column-reverse;
@@ -494,6 +534,20 @@ p {
   #hero h1 {
     font-size: 7rem; }
   /* End Hero */
+  #register .register {
+    flex-direction: row; }
+    #register .register .col-left {
+      width: 60%;
+      height: 400px;
+      padding: 0 100px; }
+    #register .register .col-right {
+      width: 40%;
+      height: 400px;
+      text-align: left;
+      padding: 30px;
+      padding: 30px 70px;
+      margin-right: 50px;
+      margin-left: 20px; }
   /* About */
   #about .about {
     flex-direction: row; }
@@ -531,7 +585,9 @@ p {
     padding: 30px; }
   #main .col-right h1 {
     text-align: left; }
-  /* End About */ }
+  /* End About */
+  #register .register {
+    flex-direction: row; } }
 
 /* End Media Query For Tablet */
 /* Media Query For Desktop */
@@ -567,4 +623,8 @@ p {
   #about, #main .col-right p {
     margin: 0 30px; }
   #header .hamburger {
-    margin-right: 5px; } }
+    margin-right: 5px; }
+  #register .col-right {
+    padding: 15px 2px; }
+  #register .col-left {
+    padding: 20px 17px; } }
