@@ -440,7 +440,7 @@ p {
   #about .col-right h1 {
     text-align: left; }
   /* End About */
-  /* Main */
+  /* About */
   #main .main {
     flex-direction: row; }
   #main .col-left {
@@ -458,7 +458,7 @@ p {
     padding: 30px; }
   #main .col-right h1 {
     text-align: left; }
-  /* End Main */ }
+  /* End About */ }
 
 /* End Media Query For Tablet */
 /* Media Query For Desktop */
@@ -482,3 +482,16 @@ p {
   #services .service-bottom .service-item {
     flex-basis: 22%;
     margin: 1.5%; } }
+
+@media screen and (max-width: 500px) {
+  .cta {
+    font-size: 1.5rem;
+    padding: 10px 30px; }
+  h1.section-title {
+    font-size: 2rem; }
+  * {
+    max-width: 100%; }
+  #about, #main .col-right p {
+    margin: 0 30px; }
+  #header .hamburger {
+    margin-right: 5px; } }

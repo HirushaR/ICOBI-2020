@@ -1,4 +1,4 @@
-
+//
 /* End Keyframes */
 
 /* Media Query For Tablet */
@@ -100,4 +100,21 @@
     margin: 1.5%;
   }
 }
-@media screen and (max-width: 500px) {}
+@media screen and (max-width: 500px) {
+  .cta {
+    font-size: 1.5rem;
+    padding: 10px 30px;
+  }
+  h1.section-title {
+    font-size: 2rem;
+  }
+  *{
+    max-width: 100%;
+  }
+  #about, #main .col-right p {
+    margin: 0 30px;
+  }
+  #header .hamburger {
+    margin-right: 5px;
+  }
+}
