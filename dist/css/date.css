@@ -299,7 +299,8 @@ Main Components
 .cd-horizontal-timeline .events-content em {
   display: block;
   font-style: italic;
-  margin: 10px auto; }
+  margin: 10px auto;
+  text-align: center; }
 
 .cd-horizontal-timeline .events-content em::before {
   content: '- '; }
@@ -315,7 +316,8 @@ Main Components
   .cd-horizontal-timeline .events-content h2 {
     font-size: 7rem; }
   .cd-horizontal-timeline .events-content em {
-    font-size: 2rem; }
+    font-size: 2rem;
+    text-align: center; }
   .cd-horizontal-timeline .events-content p {
     font-size: 1.8rem; } }
 
