@@ -400,12 +400,35 @@ p {
       padding: 2px 17px; }
   #register .col-left {
     position: center;
-    padding: 0 100px; }
+    padding: 100px; }
     #register .col-left h2 {
       color: white;
-      font-size: 20px; }
+      font-size: 20px;
+      padding: 14px; }
     #register .col-left p {
       font-weight: 100; }
+  #register .count {
+    text-align: center;
+    padding-bottom: 20px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-weight: normal; }
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase; }
+
+li span {
+  display: block;
+  font-size: 4.5rem; }
 
 /* About Section*/
 #about .about {
