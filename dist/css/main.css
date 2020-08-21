@@ -1337,7 +1337,8 @@ p {
       font-size: 20px;
       padding: 14px; }
     #register .col-left p {
-      font-weight: 100; }
+      font-weight: 100;
+      color: gainsboro; }
   #register .count {
     text-align: center;
     padding-bottom: 20px; }

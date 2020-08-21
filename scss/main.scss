@@ -72,7 +72,7 @@ p {
 }
 .section-title span {
 
-  color: $primary-color;
+    color: $primary-color;
 }
 
 .cta {
@@ -382,6 +382,7 @@ p {
       padding: 2px 17px;
     }
 
+
   }
   .col-left{
     position: center;
@@ -393,6 +394,8 @@ p {
     }
     p{
       font-weight: 100;
+        color: gainsboro;
+
     }
   }
   .count{
