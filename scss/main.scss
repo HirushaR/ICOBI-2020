@@ -1,10 +1,31 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
 
-$primary-color: #add8e6;
+$banner-color: #add8e6;
+$primary-color : #1E90FF;
 $secondary-color: linear-gradient(60deg, #29323c 0%, #485563 100%);;
 @import "slider";
 @import "table";
 @import "date";
+
+
+
+h1 {
+  font-weight: normal;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+  color: whitesmoke;
+}
 
 
 * {
@@ -382,29 +403,6 @@ p {
 
 //end
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  font-weight: normal;
-}
-
-li {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
-}
-
-li span {
-  display: block;
-  font-size: 4.5rem;
-}
-
 
 /* About Section*/
  #about{
@@ -468,41 +466,42 @@ li span {
 /* Footer */
 #footer {
   background-image: $secondary-color;
+  .footer {
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .social-icon {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .social-item {
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+  }
+  .social-item img {
+    filter: grayscale(1);
+    transition: .3s ease filter;
+  }
+  .social-item:hover img {
+    filter: grayscale(0);
+  }
+  p {
+    color: white;
+    font-size: 1.3rem;
+  }
 }
-#footer .footer {
-  min-height: 200px;
-  flex-direction: column;
-  padding-top: 50px;
-  padding-bottom: 10px;
-}
-#footer h2 {
-  color: white;
-  font-weight: 500;
-  font-size: 1.8rem;
-  letter-spacing: .1rem;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-#footer .social-icon {
-  display: flex;
-  margin-bottom: 30px;
-}
-#footer .social-item {
-  height: 50px;
-  width: 50px;
-  margin: 0 5px;
-}
-#footer .social-item img {
-  filter: grayscale(1);
-  transition: .3s ease filter;
-}
-#footer .social-item:hover img {
-  filter: grayscale(0);
-}
-#footer p {
-  color: white;
-  font-size: 1.3rem;
-}
+
 /* End Footer */
 
 /* Keyframes */
@@ -533,7 +532,7 @@ li span {
 }
 @keyframes text_reveal_name {
   100% {
-    color: $primary-color;
+    color: $banner-color;
     font-weight: 500;
   }
 }
