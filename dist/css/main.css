@@ -1297,6 +1297,126 @@ p {
   width: 100%;
   position: relative; }
 
+#category .pd-highlights-row,
+#category .pd-dashed-border-row {
+  width: 100%;
+  float: left;
+  margin: auto; }
+
+@media screen and (max-width: 960px) {
+  #category .pd-highlights-row,
+  #category .pd-dashed-border-row {
+    margin-bottom: 30px; } }
+
+#category .col-sm-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: left; }
+
+#category .pd-highlights-col {
+  padding-right: 15px;
+  padding-left: 15px; }
+
+@media (min-width: 768px) {
+  #category .pd-highlights-col {
+    width: 60%;
+    margin: auto; } }
+
+#category .field--name-field-title {
+  position: relative;
+  text-align: center;
+  overflow: hidden; }
+
+#category .field--name-field-title {
+  color: #06ae80; }
+
+#category .field--name-field-title h2 {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  margin-bottom: 10px; }
+
+@media (min-width: 768px) {
+  #category .field--name-field-title h2 {
+    font-size: 28px;
+    line-height: 1.5;
+    font-weight: 400; } }
+
+#category .field--name-field-title h2:after,
+#category .field--name-field-title h2:before {
+  content: '';
+  display: block;
+  width: 940px;
+  height: 1px;
+  background: #003349;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+#category .field--name-field-title h2:before {
+  right: 100%;
+  margin-right: 45px; }
+
+#category .field--name-field-title h2:after {
+  left: 100%;
+  margin-left: 45px; }
+
+#category .field--name-field-title h2:after,
+#category .field--name-field-title h2:before {
+  background: #06ae80; }
+
+@media (min-width: 768px) {
+  #category .field--name-field-product-highlights .highlights-always-visible > .field--item, #category .field--name-field-product-highlights .highlights-hidden > .field--item {
+    width: 50%;
+    float: left; } }
+
+#category .field--name-field-product-highlights .highlights-always-visible .field--item:nth-child(2n+1), #category .field--name-field-product-highlights .highlights-hidden .field--item:nth-child(2n) {
+  clear: both; }
+
+#category .field--name-field-product-highlights .pd-row {
+  margin-right: -15px;
+  margin-left: -15px; }
+
+#category .field--name-field-product-highlights .highlights-always-visible > .field--item .taxonomy-term--type-product-highlights.taxonomy-term--view-mode-minimal, #category .field--name-field-product-highlights .highlights-hidden > .field--item .taxonomy-term--type-product-highlights.taxonomy-term--view-mode-minimal {
+  position: relative;
+  padding: 20px 40px;
+  color: #232323;
+  overflow: hidden; }
+
+#category .field--name-field-product-highlights .highlights-always-visible > .field--item .taxonomy-term--type-product-highlights.taxonomy-term--view-mode-minimal:before, #category .field--name-field-product-highlights .highlights-hidden > .field--item .taxonomy-term--type-product-highlights.taxonomy-term--view-mode-minimal:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  width: 28px;
+  height: 28px;
+  border: 2px solid #003349;
+  border-radius: 100%; }
+
+#category .field--name-field-product-highlights .highlights-always-visible > .field--item .taxonomy-term--type-product-highlights.taxonomy-term--view-mode-minimal:after, #category .field--name-field-product-highlights .highlights-hidden > .field--item .taxonomy-term--type-product-highlights.taxonomy-term--view-mode-minimal:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 23px;
+  left: 25px;
+  width: 8px;
+  height: 16px;
+  border: solid #003349;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg); }
+
+#category .field--name-field-product-highlights .highlights-always-visible > .field--item .taxonomy-term--type-product-highlights.taxonomy-term--view-mode-minimal:before, #category .field--name-field-product-highlights .highlights-hidden > .field--item .taxonomy-term--type-product-highlights.taxonomy-term--view-mode-minimal:before {
+  border: 2px solid #06ae80; }
+
+#category .field--name-field-product-highlights .highlights-always-visible > .field--item .taxonomy-term--type-product-highlights.taxonomy-term--view-mode-minimal:after, #category .field--name-field-product-highlights .highlights-hidden > .field--item .taxonomy-term--type-product-highlights.taxonomy-term--view-mode-minimal:after {
+  border-color: #06ae80; }
+
 /* End Main Section */
 #register {
   background: url(../image/03.jpg);
