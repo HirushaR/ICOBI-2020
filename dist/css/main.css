@@ -1223,7 +1223,7 @@ p {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 20px 0px;
     display: block; }
   #header .nav-list ul a::after {
     content: attr(data-after);
